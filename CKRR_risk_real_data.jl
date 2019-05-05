@@ -16,7 +16,7 @@ g0_prime = kernel'(0);
 # Loading the Communities and Crime Data Set from UCI machine learning repository
 # Please refer to "communities_data.py" to see how we preprocess the data
 # Read the data as a dictionary and extract the useful information as follows
-data_dict = matread("/home/elkhalk//Dropbox/Kernel_Ridge_Regession/Python_codes/communities_data.mat")
+data_dict = matread("communities_data.mat")
 #data_dict = matread("residential_data.mat")
 #data_dict = matread("Twitter_data.mat")
 #data_dict = matread("BlogFeedback_data.mat")
